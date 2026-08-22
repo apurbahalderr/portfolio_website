@@ -327,11 +327,6 @@ export default function Hero() {
         ref={ctaRef}
         className="absolute bottom-[10%] sm:bottom-[12%] right-6 md:right-14 lg:right-20 z-[40] opacity-0 flex flex-col items-end gap-3.5"
       >
-        <img
-          src="/images/apurba-halder.jpeg"
-          alt="Apurba Halder"
-          className="absolute top-20 right-6 md:right-14 lg:right-20 h-20 w-20 md:h-28 md:w-28 rounded-full object-cover border-2 border-white/20 shadow-[0_0_30px_rgba(252,107,47,0.3)]"
-        />
         <MagneticButton
           href="#projects"
           variant="primary"
